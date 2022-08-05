@@ -1,34 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Learn Next.js
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Setup Next + Typescript with create-next-app
+2. Deploy Next to Vercel
+3. File-system Routing
+4. Navigation between Pages
+5. SSG, SSR, CSR and ISR
+6. Automatic Static Optimization
+7. SSG getStaticProps with typescript
+8. SSG getStaticPaths with typescript
+9. SSG and Data Fetching on client side
+10. Server Side Rendering wit cache
+11. ISR - Incremental Static Regeneration
+12. Setup multiple layout in Next
+13. Authentication with Next
+14. Setup basic API with Next
+15. Play around with APIs login /get profile
+16. Proxy requests to API server
+17. Handle Login / Logout requests
+18. Integrate API for Login page
+19. What is SWR
+20. Get logged in user with useAuth hook using useSWR
+21. Setup Protected Pages
+22. Setup MUI v5 for project
+... to be continue
