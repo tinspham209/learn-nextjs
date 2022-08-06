@@ -54,6 +54,7 @@ export function HeaderMobile() {
 								>
 									<Link href={route.path} passHref>
 										<MuiLink
+											sx={{ fontWeight: 'medium' }}
 											underline="hover"
 											className={clsx({ active: router.pathname === route.path })}
 										>

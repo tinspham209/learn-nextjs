@@ -2,7 +2,6 @@ import axiosClient from '@/api/axios-client'
 import { EmptyLayout } from '@/components/layout'
 import { AppPropsWithLayout } from '@/models/index'
 import { SWRConfig } from 'swr'
-import '../styles/globals.css'
 
 import { createEmotionCache, theme } from '@/utils/index'
 import { CacheProvider } from '@emotion/react'
