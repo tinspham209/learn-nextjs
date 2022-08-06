@@ -6,42 +6,29 @@ import avatar from '@/images/avatar.png'
 import { muiResponsive } from '@/utils/theme'
 
 export function HeroSection() {
-	const isMobileScreen = useMediaQuery(muiResponsive.MOBILE)
-
 	return (
-		<Box component={'section'} pt={isMobileScreen ? 4 : 18} pb={isMobileScreen ? 4 : 9}>
+		<Box component={'section'} pt={{ xs: 4, md: 18 }} pb={{ xs: 7, md: 9 }}>
 			<Container>
 				<Stack
 					spacing={4}
-					direction={isMobileScreen ? 'column-reverse' : 'row'}
-					alignItems={isMobileScreen ? 'center' : 'flex-start'}
-					justifyContent={isMobileScreen ? 'center' : 'flex-start'}
+					direction={{ xs: 'column-reverse', md: 'row' }}
+					alignItems={{ xs: 'center', md: 'flex-start' }}
+					textAlign={{ xs: 'center', md: 'left' }}
 				>
 					<Box>
-						<Typography
-							component="h1"
-							variant={isMobileScreen ? 'h4' : 'h3'}
-							fontWeight={'bold'}
-							textAlign={isMobileScreen ? 'center' : 'left'}
-							mb={isMobileScreen ? 3 : 5}
-						>
+						<Typography component="h1" variant={'h3'} fontWeight={'bold'} mb={{ xs: 4, md: 5 }}>
 							Hi, I am Tin,
 							<br />
 							Software Engineer
 						</Typography>
 
-						<Typography variant="body1" mb={5} textAlign={isMobileScreen ? 'center' : 'left'}>
+						<Typography variant="body1" mb={5}>
 							Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
 							officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
 							amet.
 						</Typography>
 
-						<Box
-							display={isMobileScreen ? 'flex' : 'block'}
-							justifyContent={isMobileScreen ? 'center' : 'flex-start'}
-						>
-							<Button variant="contained">Download Resume</Button>
-						</Box>
+						<Button variant="contained">Download Resume</Button>
 					</Box>
 					<Box
 						sx={{

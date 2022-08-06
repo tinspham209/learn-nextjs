@@ -1,8 +1,8 @@
-import { createTheme } from '@mui/material/styles'
+import { createTheme, responsiveFontSizes } from '@mui/material/styles'
 import { red } from '@mui/material/colors'
 
 // Create a theme instance.
-export const theme = createTheme({
+export let theme = createTheme({
 	typography: {
 		fontFamily: '"Heebo", "Roboto", sans-serif',
 	},
@@ -70,3 +70,5 @@ export const muiResponsive = {
 	LARGE_SCREEN: '(max-width:1200px)',
 	EXTRA_LARGE_SCREEN: '(max-width:1440px)',
 }
+
+theme = responsiveFontSizes(theme)
