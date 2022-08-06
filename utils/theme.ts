@@ -12,6 +12,7 @@ export const theme = createTheme({
 		},
 		secondary: {
 			main: '#00A8CC',
+			light: '#EDF7FA',
 		},
 		error: {
 			main: red.A400,
@@ -50,5 +51,22 @@ export const theme = createTheme({
 				},
 			},
 		},
+		MuiButton: {
+			variants: [
+				{
+					props: { variant: 'contained', color: 'primary' },
+					style: {
+						color: 'white',
+					},
+				},
+			],
+		},
 	},
 })
+
+export const muiResponsive = {
+	MOBILE: '(max-width:600px)',
+	TABLET: '(max-width:960px)',
+	LARGE_SCREEN: '(max-width:1200px)',
+	EXTRA_LARGE_SCREEN: '(max-width:1440px)',
+}
