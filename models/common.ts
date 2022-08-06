@@ -1,7 +1,8 @@
 import { NextPage } from 'next'
 import { AppProps } from 'next/app'
 import { ReactElement, ReactNode } from 'react'
-imd
+import { EmotionCache } from '@emotion/react'
+
 export interface LayoutProps {
 	children: ReactNode
 }

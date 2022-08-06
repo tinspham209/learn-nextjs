@@ -1,8 +1,8 @@
-import Header from '@/components/common/header'
+import { Header } from '@/components/common'
 import { AdminLayout } from '@/components/layout'
 import { Box, Button, Typography } from '@mui/material'
 import { useRouter } from 'next/router'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 // import dynamic from 'next/dynamic'
 
 // const Header = dynamic(() => import('@/components/common/header'), { ssr: false })
