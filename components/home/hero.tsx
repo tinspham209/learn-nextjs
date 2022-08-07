@@ -38,7 +38,7 @@ export function HeroSection() {
 							borderRadius: '50%',
 						}}
 					>
-						<Image src={avatar} layout="responsive" alt="avatar" />
+						<Image src={avatar} layout="responsive" alt="avatar" priority={true} />
 					</Box>
 				</Stack>
 			</Container>
