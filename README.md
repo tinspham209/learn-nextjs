@@ -22,4 +22,5 @@
 20. Get logged in user with useAuth hook using useSWR
 21. Setup Protected Pages
 22. Setup MUI v5 for project
+23. Create Homepage & setup SEO
 ... to be continue
