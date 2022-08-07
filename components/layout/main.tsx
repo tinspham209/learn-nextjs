@@ -1,8 +1,8 @@
-import { LayoutProps } from '@/models/index'
+import { LayoutProps } from '@/models'
 import { Container, Stack } from '@mui/material'
 import { Box } from '@mui/system'
 import Link from 'next/link'
-import { Footer, Header } from '../common/index'
+import { Footer, Header } from '../common'
 
 export function MainLayout({ children }: LayoutProps) {
 	return (
