@@ -4,7 +4,13 @@ import { PublicConfiguration } from 'swr/dist/types'
 
 // Auth --> Protected Pages
 // <Auth>{children}</Auth>
-export function useAuth(options?: Partial<PublicConfiguration>) {
+export function useAuth(options?: Partial<PublicConfiguration>): {
+	profile: any
+	error: any
+	login: () => void
+	logout: () => void
+	firstLoading: any
+} {
 	const {
 		data: profile,
 		error,
